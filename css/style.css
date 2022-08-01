@@ -8,48 +8,29 @@ body {
     box-shadow: 0 15px 10px -10px rgb(204, 204, 204);
     margin-bottom: 60px;
     padding: 5px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header h1 {
     font-size: 38px;
 }
 
-.container {
-    width: 70%;
-    margin: auto;
-    padding: 10px 40px;
-}
-
-.container .images {
-    padding-bottom: 30px;
-}
-
-.container .recipe-list {
-    width: 70%;
-    margin: auto;
-}
-
-.container .recipe-list .list-head {
-    text-align: center;
-}
-
-.container .recipe-list .list {
-    list-style-type: none;
-}
-
-.container .recipe-list .items {
+#header nav .links {
+    margin: 10px;
     padding: 10px;
+    color: dodgerblue;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: 600;
 }
 
-.container .recipe-list .items a {
-    color: rgb(0, 94, 189);
-}
-
-.container .recipe-list .items a:link {
+#header nav .links:link {
     text-decoration: none;
 }
 
-.container .recipe-list .items a:hover {
+#header nav .links:hover {
     text-decoration: underline;
-    font-weight: bold;
 }
