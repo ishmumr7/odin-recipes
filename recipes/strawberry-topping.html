@@ -1,39 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strawberry Topping Recipe</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/recipes.css">
 </head>
+
 <body>
     <a id="top"></a>
     <header>
-        <a href="./../index.html">Home</a>
-        <h1>Easy Strawberry Topping Recipe</h1>
+        <div id="header">
+            <h1>Odin Recipes</h1>
+            <nav>
+                <a href="./../index.html" class="links">Home</a>
+            </nav>
+        </div>
     </header>
 
-    <div>
-        <img src="./../img/Strawberry-Topping.jpg" alt="Chicken Salad" height="400px">
-        <br>
-        <br>
-        <h2>Description</h2>
-        <h3>Ingredients</h3>
-        <ul>
-            <li>1 pound strawberries, sliced</li>
-            <li>1/4 cup sugar</li>
-            <li>1 teaspoon vanilla extract</li>
-        </ul>
-        <h3>Steps</h3>
-        <ol>
-            <li>Place a medium pot on the stove on medium heat.</li>
-            <li>Add the strawberries, sugar, and vanilla to the pot and cook for 18-20 minutes or until thickened, stirring frequently.</li>
-        </ol>
+    <div class="container">
+        <h1 class="title">Easy Strawberry Topping Recipe</h1>
+
+        <div class="image">
+            <img src="./../img/Strawberry-Topping.jpg" alt="Chicken Salad" height="400px">
+        </div>
+
+        <div class="description">
+            <h2 class="list-head">Description</h2>
+            <hr>
+
+            <div class="sub-description">
+                <h3 class="list-subhead">Ingredients</h3>
+                <ul class="list ingredients">
+                    <li>1 pound strawberries, sliced</li>
+                    <li>1/4 cup sugar</li>
+                    <li>1 teaspoon vanilla extract</li>
+                </ul>
+            </div>
+
+            <div class="sub-description">
+                <h3 class="list-subhead">Steps</h3>
+                <ol class="list steps">
+                    <li>Place a medium pot on the stove on medium heat.</li>
+                    <li>Add the strawberries, sugar, and vanilla to the pot and cook for 18-20 minutes or until
+                        thickened,
+                        stirring frequently.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="#top">Back to Top</a>
+            <br>
+            <a href="./../index.html">Back to Home</a>
+        </div>
     </div>
 
-    <a href="#top">Back to Top</a>
-    <br>
-    <a href="./../index.html">Back to Home</a>
-    </div>
 </body>
+
 </html>

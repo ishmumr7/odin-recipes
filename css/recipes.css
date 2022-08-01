@@ -2,6 +2,7 @@
     width: 80%;
     margin: auto;
     padding: 10px 40px;
+    padding-bottom: 20px;
 }
 
 .container .title,
@@ -16,6 +17,7 @@
     border: 1px solid lightgrey;
     border-radius: 20px;
     padding: 5px 30px;
+    box-shadow: 10px 10px 5px -5px lightgray;
 }
 
 .container .description .list-head {
@@ -44,7 +46,7 @@
     list-style-type: decimal-leading-zero;
     margin-left: 10px;
 }
-.back-link a
+
 .back-link {
     display: flex;
     flex-direction: row;
