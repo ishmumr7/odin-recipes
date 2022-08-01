@@ -1,0 +1,66 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+.container .title,
+.container .image {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container .description {
+    width: 75%;
+    margin: auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+.container .description .list-head {
+    text-align: center;
+}
+
+.container .description hr {
+    border: none;
+    background-color: lightgrey;
+    height: 1px;
+}
+
+.container .description .sub-description {
+    padding: 20px 0px;
+}
+
+.container .description .list-subhead {
+    padding-left: 20px;
+}
+
+.container .description .list li {
+    padding: 10px 20px;
+}
+
+.container .description .list.steps {
+    list-style-type: decimal-leading-zero;
+    margin-left: 10px;
+}
+.back-link a
+.back-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.back-link a {
+    color: dodgerblue;
+    padding: 30px;
+    font-weight: 600;
+}
+
+.back-link a:link {
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
