@@ -1,18 +1,16 @@
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 10px 40px;
 }
 
 .container .images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
     padding-bottom: 80px;
 }
 
 .container .recipe-list {
-    width: 70%;
+    width: 75%;
     margin: auto;
     border: 1px solid lightgrey;
     border-radius: 20px;
