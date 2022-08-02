@@ -10,12 +10,17 @@
     padding-bottom: 80px;
 }
 
+.container .images img {
+    height: 300px;
+    width: 300px;
+}
+
 .container .recipe-list {
-    width: 75%;
+    width: 95%;
     margin: auto;
-    border: 1px solid lightgrey;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px -5px lightgray;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -5px rgb(221, 221, 221);
 }
 
 .container .recipe-list .list-head {
