@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     font-family: Helvetica, 'DejaVu sans', sans-serif;
     font-size: large;
@@ -15,7 +17,9 @@ body {
 }
 
 #header h1 {
-    font-size: 38px;
+    font-size: 42px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
 }
 
 #header nav .links {
