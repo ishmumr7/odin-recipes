@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+html {
+    scroll-behavior: smooth ;
+}
+
 body {
     font-family: Helvetica, 'DejaVu sans', sans-serif;
     font-size: large;
